@@ -46,9 +46,9 @@ To install NS3, you can follow these steps:
 
 >    Install the required dependencies by running the following command:
 
-'sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl-dev libgslcblas0 libgslcblas0-dev flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive-font-utils python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml'
+<pre> sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl-dev libgslcblas0 libgslcblas0-dev flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive-font-utils python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml </pre>
 
-* Download the NS3 source code from the official website: https://www.nsnam.org/releases/ns-3-xx/
+* Download the NS3 source code from the official website: https://www.nsnam.org/releases/ns-3-38/
     Extract the downloaded file to a directory of your choice.
     Navigate to the extracted directory in the terminal.
     Run the following commands to configure and build NS3:
@@ -69,6 +69,6 @@ Note: NS3 requires several dependencies to be installed on your system, such as 
 You can setup Ns3 on ubuntu by script ***setup.py***
 
 <pre> To run the setup script, use the following command:
-* `python3 setup.py` </pre>
+s`python3 setup.py` </pre>
 
 
