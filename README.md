@@ -29,4 +29,10 @@ official website: [Click To See](https://www.nsnam.org/)
 
 ### 2. Implemetation 
 
+### Install script 
+
+You can setup Ns3 on ubuntu by script ***setup.py***
+
+<pre> ```shell python3 setup.py``` </pre>
+
 
