@@ -8,9 +8,9 @@ Learn NS3 for simulation & impelementation network project's
 
 official website: "https://www.nsnam.org/"
 ### 1. Instalation
-    	1. requirements 
-			1. Linux 
-			2. C ++
+    1. requirements 
+	1. Linux 
+	2. C ++
 		 
 
 ### 2. Implemetation 
