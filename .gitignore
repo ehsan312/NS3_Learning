@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# new file that i waana ignore 
+ns-3-tutorial.pdf
