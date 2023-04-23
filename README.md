@@ -33,6 +33,6 @@ official website: [Click To See](https://www.nsnam.org/)
 
 You can setup Ns3 on ubuntu by script ***setup.py***
 
-<pre> ```shell python3 setup.py``` </pre>
+<pre> Shell `python3 setup.py` </pre>
 
 
