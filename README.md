@@ -61,6 +61,11 @@ To install NS3, you can follow these steps:
 
 Note: NS3 requires several dependencies to be installed on your system, such as Python, GCC, and Boost. Make sure to install these dependencies before attempting to build NS3.
 
+<pre>
+<code id="my-code-block" data-clipboard-target="#my-code-block">
+// Your code here
+</code>
+</pre>
 
 ### 2. Implemetation 
 
