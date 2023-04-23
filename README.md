@@ -46,26 +46,32 @@ To install NS3, you can follow these steps:
 
 >    Install the required dependencies by running the following command:
 
-<pre> sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl-dev libgslcblas0 libgslcblas0-dev flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive-font-utils python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml </pre>
+<pre>
+<code id="my-code-block" data-clipboard-target="#my-code-block">
+sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl-dev libgslcblas0 libgslcblas0-dev flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive-font-utils python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml 
+</code>
+</pre>
+
 
 * Download the NS3 source code from the official website: https://www.nsnam.org/releases/ns-3-38/
     Extract the downloaded file to a directory of your choice.
     Navigate to the extracted directory in the terminal.
     Run the following commands to configure and build NS3:
 
-' ./waf configure
-./waf build'
+<pre>
+<code id="my-code-block" data-clipboard-target="#my-code-block">
+./waf configure
+./waf build
+</code>
+</pre>
+
+
 
  
  * Once the build process is complete, you can run the examples provided in the examples/ directory.
 
 Note: NS3 requires several dependencies to be installed on your system, such as Python, GCC, and Boost. Make sure to install these dependencies before attempting to build NS3.
 
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-// Your code here
-</code>
-</pre>
 
 ### 2. Implemetation 
 
@@ -73,7 +79,12 @@ Note: NS3 requires several dependencies to be installed on your system, such as 
 
 You can setup Ns3 on ubuntu by script ***setup.py***
 
-<pre> To run the setup script, use the following command:
-s`python3 setup.py` </pre>
+
+<pre>
+<code id="my-code-block" data-clipboard-target="#my-code-block">
+python3 setup.py
+</code>
+</pre>
+
 
 
