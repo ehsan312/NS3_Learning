@@ -134,7 +134,8 @@ You can setup Ns3 on ubuntu by script ***setup.py***
 
 <pre>
 <code id="my-code-block" data-clipboard-target="#my-code-block">
-python3 setup.py
+git clone https://github.com/ehsan312/NS3_Learning.git
+python3 python_script.py
 </code>
 </pre>
 
