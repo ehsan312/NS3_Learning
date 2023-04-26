@@ -130,13 +130,12 @@ Note: NS3 requires several dependencies to be installed on your system, such as 
 ### Install script 
 
 You can setup Ns3 on ubuntu by script ***setup.py***
-<pre>
+<pre>```
 <code id="my-code-block" data-clipboard-target="#my-code-block">
-'''bash
 git clone https://github.com/ehsan312/NS3_Learning.git
 python3 python_script.py
 </code>
-</pre>
+```</pre>
 
 
 
