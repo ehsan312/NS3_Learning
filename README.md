@@ -55,7 +55,7 @@ sudo apt-get install update && apt-get install upgarde -y
 
 <pre>
 <code id="my-code-block" data-clipboard-target="#my-code-block">
-sudo apt-get install build-essential autoconf automake libxmu-dev python3-pygraphviz cvs mercurial bzr git cmake p7zip-full python3-matplotlib python-tk python3-dev qtbase5-dev qtchooser gnuplot-x11 wireshark
+sudo apt-get install build-essential autoconf automake libxmu-dev libxml2-dev python3-pygraphviz cvs mercurial bzr git cmake p7zip-full python3-matplotlib python-tk python3-dev qtbase5-dev qtchooser gnuplot-x11 wireshark
 </code>
 </pre>
 
