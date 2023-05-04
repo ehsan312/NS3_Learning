@@ -55,7 +55,7 @@ sudo apt-get install update && apt-get install upgarde -y
 
 <pre>
 <code id="my-code-block" data-clipboard-target="#my-code-block">
-sudo apt-get install build-essential autoconf automake libxmu-dev libxml2-dev python3-pygraphviz cvs mercurial bzr git cmake p7zip-full python3-matplotlib python-tk python3-dev qtbase5-dev qtchooser gnuplot-x11 wireshark
+sudo apt-get install tcpdump wireshark sqlite sqlite3 libsqlite3-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools openmpi-bin openmpi-common openmpi-doc libopenmpi-dev doxygen graphviz imagemagick python3-sphinx dia imagemagick texlive dvipng latexmk texlive-extra-utils texlive-latex-extra texlive-font-utils libeigen3-dev gsl-bin libgsl-dev libgslcblas0 libxml2 libxml2-dev libgtk-3-dev lxc-utils lxc-templates vtun uml-utilities ebtables bridge-utils libxml2 libxml2-dev libboost-all-dev 
 </code>
 </pre>
 
