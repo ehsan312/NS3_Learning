@@ -41,91 +41,10 @@ With the above prerequisites in mind, you can study relevant resources and pract
 ### 1. Instalation
 
 To install NS3, you can follow these steps:
+Best way to install NS3 id following the official website
 
-* Open a terminal window on your Linux machine.
+Official website to install : [Click To See](https://www.nsnam.org/wiki/Installation/) 
 
-* Update your linux system:
-
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-sudo apt-get install update && apt-get install upgarde -y 
-</pre>
-
-* Minimal requirements for release 3.36 and later
-
-<pre>
-apt install g++ python3 cmake ninja-build git
-</pre>
-
-Install the required dependencies by running the following command:
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-sudo apt-get install tcpdump wireshark sqlite sqlite3 libsqlite3-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools openmpi-bin openmpi-common openmpi-doc libopenmpi-dev doxygen graphviz imagemagick python3-sphinx dia imagemagick texlive dvipng latexmk texlive-extra-utils texlive-latex-extra texlive-font-utils libeigen3-dev gsl-bin libgsl-dev libgslcblas0 libxml2 libxml2-dev libgtk-3-dev lxc-utils lxc-templates vtun uml-utilities ebtables bridge-utils libxml2 libxml2-dev libboost-all-dev 
-</code>
-</pre>
-
-
-* Download the NS3 source code from the official website: https://www.nsnam.org/releases/ns-3-38/
-    Extract the downloaded file to a directory of your choice.
-    Navigate to the extracted directory in the terminal.
-    
->>    First WAY  >> Run the following commands to configure and build NS3:
-
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-cd ~
-wget https://www.nsnam.org/release/ns-allinone-3.33.tar.bz2
-
-tar xjf ns-allinone-3.33.tar.bz2
-
-cd ns-allinone-3.33
-
-./build.py --enable-examples --enable-tests
-
-</code>
-</pre>
-
-* Run the following commands to configure and build NS3:
-
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-cd ns-3.33
-./waf configure --enable-examples --enable-tests
-./waf
-
-</code>
-</pre>
-
->>    Scound WAY  >> Run the following commands to configure and build NS3:
-
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-
-sudo apt-get update
-
-sudo apt-get install build-essential autoconf automake libxmu-dev python3-pygraphviz cvs mercurial bzr git cmake p7zip-full python3-matplotlib python3-tk python3-dev qt5-default gnuplot-x11 wireshark
-
-cd ns-3-dev
-./ns3 configure --enable-examples --enable-tests
-./ns3
-
-</code>
-</pre>
-
-* Run the following commands to configure and build NS3:
-
-<pre>
-<code id="my-code-block" data-clipboard-target="#my-code-block">
-
-./ns3 --run hello-simulator
-
-</code>
-</pre>
-
- 
- * Once the build process is complete, you can run the examples provided in the examples/ directory.
-
-Note: NS3 requires several dependencies to be installed on your system, such as Python, GCC, and Boost. Make sure to install these dependencies before attempting to build NS3.
 
 
 ### 2. Implemetation 
