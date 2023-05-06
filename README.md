@@ -52,6 +52,7 @@ sudo apt-get install update && apt-get install upgarde -y
 </pre>
 
 * Minimal requirements for release 3.36 and later
+
 <pre>
 apt install g++ python3 cmake ninja-build git
 </pre>
