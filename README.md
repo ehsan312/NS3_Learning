@@ -44,15 +44,19 @@ To install NS3, you can follow these steps:
 
 * Open a terminal window on your Linux machine.
 
-* At first update your linux system:
+* Update your linux system:
 
 <pre>
 <code id="my-code-block" data-clipboard-target="#my-code-block">
 sudo apt-get install update && apt-get install upgarde -y 
 </pre>
 
->    Install the required dependencies by running the following command:
+* Minimal requirements for release 3.36 and later
+<pre>
+apt install g++ python3 cmake ninja-build git
+</pre>
 
+Install the required dependencies by running the following command:
 <pre>
 <code id="my-code-block" data-clipboard-target="#my-code-block">
 sudo apt-get install tcpdump wireshark sqlite sqlite3 libsqlite3-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools openmpi-bin openmpi-common openmpi-doc libopenmpi-dev doxygen graphviz imagemagick python3-sphinx dia imagemagick texlive dvipng latexmk texlive-extra-utils texlive-latex-extra texlive-font-utils libeigen3-dev gsl-bin libgsl-dev libgslcblas0 libxml2 libxml2-dev libgtk-3-dev lxc-utils lxc-templates vtun uml-utilities ebtables bridge-utils libxml2 libxml2-dev libboost-all-dev 
